@@ -1,12 +1,12 @@
 import React from 'react';
 import { createBrowserRouter } from "react-router-dom";
-import Layout from './../layouts/Layout';
-import Home from './../components/web/home/Home';
-import Categories from './../components/web/categories/Categories';
+import Layout from './../layouts/Layout.jsx';
+import Home from './../components/web/home/Home.jsx';
+import Categories from './../components/web/categories/Categories.jsx';
 import DashboardLayout from './../layouts/DashboardLayout';
 import DashboardHome from "./../components/dashboard/home/Home.jsx"
 import DashboardCategories from "./../components/dashboard/categories/Categories.jsx"
-import Register from '../components/web/register/Register';
+import Register from '../components/web/register/Register.jsx';
 
 
 export const router = createBrowserRouter([
